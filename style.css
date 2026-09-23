@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.main-container{
+    position: relative;
+    background:linear-gradient(to right,rgb(216, 36, 66),rgb(245, 126, 146),rgb(221, 167, 95));
+    height: 100vh;
+    width: 100%; 
+    background-size: cover;
+    background-position: center center;
+}
+
+.wave{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+.wave path {
+    fill: white;
+}
+@media (max-width:768px){
+    .main-container{
+        height:160vh;
+        width: 100%;
+    }
+    .wave {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+.nav-colors{
+    background-color: white;
+}
+.business-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:576px){
+    .main-container{
+        height: 155vh;
+        width: 100%;
+    }
+    .wave {
+    position: absolute;
+    bottom:-12px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+.nav-colors{
+    background-color: white;
+}
+ .business-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.border-line{
+    border-bottom: 5px solid rgb(218, 40, 70);
+    width: 10%;
+}
+.title{
+   display: flex;
+   justify-content: center;
+}
+.btn-style{
+    background:linear-gradient(to right,rgb(216, 36, 66),rgb(245, 126, 146),rgb(221, 167, 95));
+    color: white;
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+}
+.per-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-1{
+    height: 65vh;
+    margin-top: 60px;
+    margin-left: none;
+}
+.card-2{
+    height: 72vh;
+    margin-top: 20px;
+}
+.padding-row{
+    padding-left: 0;
+    padding-right: 0;
+}
+.action-container{
+    position: relative;
+    background:linear-gradient(to right,rgb(216, 36, 66),rgb(245, 126, 146),rgb(221, 167, 95));
+    height: 75vh; 
+    width: 100%;
+} 
+.top-curve {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+.top-curve path {
+    fill: white;
+}
+footer{
+     background:linear-gradient(to right,rgb(216, 36, 66),rgb(245, 126, 146),rgb(221, 167, 95));
+     text-align: center;
+     color: white;
+     padding: 10px;
+     }
