@@ -65,9 +65,22 @@
         align-items: center;
     }
 }
+.pricing-container .row-padding{
+        padding: 0px;
+    }
+@media (max-width:400px){
+    .pricing-container .row-padding{
+        padding: 25px;
+    }
+}
 .border-line{
     border-bottom: 5px solid rgb(218, 40, 70);
     width: 10%;
+}
+@media (max-width:400px){
+    .border-line{
+        width: 25%;
+    }
 }
 .title{
    display: flex;
